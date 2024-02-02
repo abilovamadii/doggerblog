@@ -3,68 +3,84 @@ body {
   font-weight: 500;
 }
 
-.imgbox {
-  width: 100%;
-}
-
 #carefor {
   padding: 50px 0;
 }
 #carefor .textbox h1 {
   font-weight: 700;
   font-size: 60px;
-  margin: 0 0 10px;
+  padding-bottom: 20px;
 }
 #carefor .textbox h4 {
   color: #a8a8a8;
   font-size: 24px;
 }
-#carefor .imgbox {
-  width: 500px;
-}
 #carefor .imgbox img {
   border-radius: 20px;
 }
 @media screen and (max-width: 768px) {
+  #carefor {
+    padding: 60px 0;
+  }
   #carefor .textbox {
     text-align: center;
+    padding-left: 50px;
   }
   #carefor .textbox h1 {
-    font-size: 55px;
+    font-size: 60px;
+    line-height: 1.2;
   }
   #carefor .textbox h4 {
-    margin: 20px 0 40px;
+    margin-bottom: 60px;
+  }
+  #carefor .imgbox {
+    left: 0;
+  }
+}
+@media screen and (max-width: 996px) {
+  #carefor .textbox {
+    position: relative;
+    right: 70px;
+  }
+  #carefor .textbox h1 {
+    padding-bottom: 20px;
+  }
+  #carefor .textbox h4 {
+    line-height: 1.3;
+  }
+}
+@media screen and (max-width: 868px) {
+  #carefor .textbox {
+    position: relative;
+    right: 35px;
   }
 }
 
 #welcome {
   padding: 40px 0;
 }
-#welcome .textbox {
-  padding: 80px;
-}
-#welcome .textbox h1 {
+#welcome .textbox h1, #welcome .textboxone h1, #welcome .textboxtwo h1 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 50px;
+  padding-bottom: 25px;
 }
-#welcome .textbox h3 {
+#welcome .textbox h3, #welcome .textboxone h3, #welcome .textboxtwo h3 {
   line-height: 1.3;
   color: #949494;
-  margin: 20px 0 40px 0;
   font-size: 20px;
 }
-#welcome .textbox h2, #welcome .textbox h6 {
+#welcome .textbox h2, #welcome .textbox h6, #welcome .textboxone h2, #welcome .textboxone h6, #welcome .textboxtwo h2, #welcome .textboxtwo h6 {
   margin: 17px 0;
 }
-#welcome .textbox h2 {
+#welcome .textbox h2, #welcome .textboxone h2, #welcome .textboxtwo h2 {
   font-size: 33px;
 }
-#welcome .textbox h6 {
+#welcome .textbox h6, #welcome .textboxone h6, #welcome .textboxtwo h6 {
   line-height: 1.3;
   font-size: 18px;
   color: #828282;
 }
-#welcome .textbox .btn h5 {
+#welcome .textbox .btn h5, #welcome .textboxone .btn h5, #welcome .textboxtwo .btn h5 {
   padding: 10px 20px;
   border-radius: 20px;
   background-color: #98c6c6;
@@ -77,20 +93,48 @@ body {
   border-radius: 20px;
 }
 @media screen and (max-width: 768px) {
-  #welcome .textbox {
-    padding: 25px;
+  #welcome .textbox, #welcome .textboxone, #welcome .textboxtwo {
+    padding: 0 0 0 80px;
   }
-  #welcome .textbox h1 {
+  #welcome .textbox h1, #welcome .textboxone h1, #welcome .textboxtwo h1 {
     font-size: 45px;
   }
-  #welcome .textbox h3 {
+  #welcome .textbox h3, #welcome .textboxone h3, #welcome .textboxtwo h3 {
     font-size: 22px;
   }
-  #welcome .textbox h6 {
+  #welcome .textbox h6, #welcome .textboxone h6, #welcome .textboxtwo h6 {
     font-size: 25px;
   }
   #welcome .imgbox {
     margin: 20px 0;
+  }
+}
+@media screen and (max-width: 1204px) {
+  #welcome .textbox {
+    padding-left: 40px;
+  }
+  #welcome .imgbox {
+    margin-bottom: 60px;
+  }
+  #welcome .textboxtwo, #welcome .textbox {
+    padding-bottom: 150px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #welcome .textboxone, #welcome .textboxtwo {
+    position: relative;
+    right: 100px;
+  }
+  #welcome .imgbox {
+    position: relative;
+    right: 80px;
+  }
+  #welcome .textbox {
+    position: relative;
+    left: 60px;
+  }
+  #welcome .textbox h1, #welcome .textbox h3 {
+    padding-right: 150px;
   }
 }
 
