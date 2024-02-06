@@ -1,67 +1,39 @@
 #welcome
     padding: 40px 0
-    .textbox,.textboxone,.textboxtwo
-        
+    .textbox
+        padding: 80px
         h1
             font-weight: 700
-            font-size: 50px
-            padding-bottom: 25px
-        h3
-            line-height: 1.3
-            color: #949494
-            padding-bottom: 40px
-            
-            font-size: 20px
-        h2,h6
-            margin: 17px 0
+            font-size: 34px
         h2
-            font-size: 33px
+            font-size: 30px
+
+        h2, h6
+            margin: 15px 0
+        h3
+            color: #868686
+            margin: 20px 0 40px
+            font-size: 19px
         h6
-            line-height: 1.3
-            font-size: 18px
-            color: #828282
+            font-size: 17px
         .btn
-            h5
-                padding: 10px 20px
-                border-radius: 20px
-                background-color: #98c6c6
-                color: #ffffff
+            padding: 10px 25px
+            border-radius: 20px
+            background-color: #a0c1c5
+            color: #ffff
+
     .wid
         width: 580px
+        padding: 0
     .imgbox
         img
             border-radius: 20px
 
-    @media screen and ( max-width: 768px  )
-        .textbox,.textboxone,.textboxtwo
-            padding: 0 0 0 80px
-            h1
-                font-size: 45px
-            h3
-                font-size: 22px
-            h6
-                font-size: 25px
-        .imgbox
-            margin: 20px 0
-
-    @media screen and ( max-width: 1204px  )
+    @media ( max-width: 767px)
         .textbox
-            padding-left: 40px
+            h1, h3
+                text-align: start
+            h2, h6
+                text-align: start
         .imgbox
-            margin-bottom: 60px
-        .textboxtwo,.textbox
-            padding-bottom: 150px
-
-    @media screen and ( max-width: 992px  )
-        .textboxone,.textboxtwo
-            // padding-right: 150px
-            position: relative
-            right: 100px
-        .imgbox
-            position: relative
-            right: 80px
-        .textbox
-            position: relative
-            left: 60px
-            h1,h3
-                padding-right: 150px
+            margin-top: 30px
