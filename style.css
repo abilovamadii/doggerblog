@@ -3,9 +3,15 @@ body {
   font-weight: 500;
 }
 
-#carefor {
-  padding: 40px 0;
+.imgbox {
+  overflow: hidden;
+  border-radius: 20px;
 }
+
+section {
+  padding: 70px 0;
+}
+
 #carefor .textbox h1 {
   font-weight: 700;
   font-size: 55px;
@@ -17,8 +23,6 @@ body {
 }
 #carefor .imgbox {
   width: 450px;
-}
-#carefor .imgbox img {
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -27,9 +31,6 @@ body {
   }
 }
 
-#welcome {
-  padding: 40px 0;
-}
 #welcome .textbox {
   padding: 80px;
 }
@@ -61,7 +62,7 @@ body {
   width: 580px;
   padding: 0;
 }
-#welcome .imgbox img {
+#welcome .imgbox {
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -76,9 +77,6 @@ body {
   }
 }
 
-#aboutus {
-  padding: 90px 0;
-}
 #aboutus .textbox {
   padding: 0 50px;
 }
@@ -112,9 +110,6 @@ body {
   color: #423737;
 }
 #aboutus .imgbox {
-  width: 400px;
-}
-#aboutus .imgbox img {
   border-radius: 20px;
 }
 @media (max-width: 767px) {
@@ -127,9 +122,6 @@ body {
   }
 }
 
-#ourtrainers {
-  padding: 40px 0;
-}
 #ourtrainers .textbox {
   margin: 0 5px;
 }
@@ -167,7 +159,7 @@ body {
 #ourtrainers .wid {
   width: 580px;
 }
-#ourtrainers .imgbox img {
+#ourtrainers .imgbox {
   border-radius: 20px;
 }
 @media screen and (max-width: 768px) {
@@ -184,9 +176,6 @@ body {
   }
 }
 
-#pricingtable {
-  padding: 40px 0;
-}
 #pricingtable .textbox {
   text-align: center;
   width: 580px;
@@ -247,9 +236,6 @@ body {
   }
 }
 
-#questions {
-  padding: 40px 0;
-}
 #questions .wid {
   width: 580px;
 }
@@ -294,7 +280,7 @@ body {
 #questions .icon i {
   font-size: 20px;
 }
-#questions .imgbox img {
+#questions .imgbox {
   border-radius: 20px;
 }
 @media screen and (max-width: 990px) {
@@ -303,9 +289,6 @@ body {
   }
 }
 
-#doggerblog {
-  padding: 40px 0;
-}
 #doggerblog .box {
   display: flex;
 }
@@ -335,7 +318,7 @@ body {
 #doggerblog .textbox p, #doggerblog .textbox h4 {
   margin: 20px 0 0;
 }
-#doggerblog .imgbox img {
+#doggerblog .imgbox {
   border-radius: 20px;
 }
 #doggerblog .wid {
@@ -347,9 +330,6 @@ body {
   }
 }
 
-#ourservices {
-  padding: 40px 0;
-}
 #ourservices .wid {
   width: 580px;
 }
