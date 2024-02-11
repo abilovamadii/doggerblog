@@ -3,6 +3,10 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
+
 section {
   padding: 70px 0;
 }
@@ -18,7 +22,6 @@ section {
 }
 #carefor .imgbox {
   border-radius: 20px;
-  overflow: hidden;
 }
 @media (max-width: 767px) {
   #carefor .imgbox {
@@ -59,7 +62,6 @@ section {
 }
 #welcome .imgbox {
   border-radius: 20px;
-  overflow: hidden;
 }
 @media (max-width: 767px) {
   #welcome .textbox h1, #welcome .textbox h3 {
@@ -107,7 +109,6 @@ section {
 }
 #aboutus .imgbox {
   border-radius: 20px;
-  overflow: hidden;
 }
 @media (max-width: 767px) {
   #aboutus .imgbox {
@@ -158,7 +159,6 @@ section {
 }
 #ourtrainers .imgbox {
   border-radius: 20px;
-  overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   #ourtrainers .textbox h2 {
@@ -280,7 +280,6 @@ section {
 }
 #questions .imgbox {
   border-radius: 20px;
-  overflow: hidden;
 }
 @media screen and (max-width: 990px) {
   #questions .imgbox {
@@ -324,7 +323,6 @@ section {
 }
 #doggerblog .imgbox {
   border-radius: 20px;
-  overflow: hidden;
 }
 @media screen and (max-width: 768px) {
   #doggerblog .minibox h3, #doggerblog .minibox h5 {
